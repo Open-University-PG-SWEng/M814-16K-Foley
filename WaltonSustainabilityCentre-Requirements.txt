@@ -17,5 +17,17 @@ Type: 9
 Rationale: To be able to reserve a chosen workshop.
 Originator: Daniel Steimetz - Software Engineer
 
+REQ-ID: FR-3
+Description: The product shall check that the payment due amount matches the agreed workshop fee amount.
+Type: 9
+Rationale: The accounts department need to make sure that no erroneous or fraudulent payment requests are fulfilled.
+Originator: Lucy Withington - Software Engineer
+
+REQ-ID: FR-4
+Description: The product shall confirm that the payment transaction completed successfully.
+Type: 9
+Rationale: The accounts department need to be made aware of any failed payments to ensure that they do not default on payments or submit erroneous accounts.
+Originator: Lucy Withington - Software Engineer
+
 
 
