@@ -29,5 +29,15 @@ Type: 9
 Rationale: The accounts department need to be made aware of any failed payments to ensure that they do not default on payments or submit erroneous accounts.
 Originator: Lucy Withington - Software Engineer
 
+REQ-ID: FR-5
+Description: The product shall applied the correct discount to the total workshop payment
+Type: 9
+Rationale: To ensure that the customer is not over charged when paying for a workshop.
+Originator: Ryan Schranz - Software Engineer
 
+REQ-ID: FR-6
+Description: The product shall allow searching for a member
+Type: 9
+Rationale: The clerk can find the member details with varying degrees of information given.
+Originator: Ryan Schranz - Software Engineer
 
