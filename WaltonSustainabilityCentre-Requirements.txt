@@ -55,3 +55,14 @@ Rationale: If reservation and confirmation are treated as 2 different events the
            completing payment. Means the slot can't accidentally be taken by someone else during the customer journey. 
 Originator: David Vreony - Software Engineer
 
+REQ-ID: FR-9
+Description: The product shall provide a list of all activities scheduled for a certain time.
+Type: 9
+Rationale: An operator preparing supply orders needs to see a list of all activities in the future so they could create a list of required supplies.
+Originator: Jacek S Kutyla
+
+REQ-ID: FR-10
+Description: The product shall create supply orders based on required supplies.
+Type: 9
+Rationale: An operator needs to create a set of supply orders based on a list of required supplies, supplies should be grouped by the supplier.
+Originator: Jacek S Kutyla
