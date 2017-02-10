@@ -41,3 +41,15 @@ Type: 9
 Rationale: The clerk can find the member details with varying degrees of information given.
 Originator: Ryan Schranz - Software Engineer
 
+REQ-ID: FR-7
+Description: The product shall allow entry of Credit \ Debit card details
+Type: 9
+Rationale: Payment details may not already be on the system, required in order to take a payment.
+Originator: David Vreony - Software Engineer
+
+REQ-ID: FR-8
+Description: The product shall allow confirmation of a reservation of a booking
+Type: 9
+Rationale: If reservation and confirmation are treated as 2 different events there is the ability to "hold" a workshop slot between the Customer being told there is a place available and them successfully completing payment. Means the slot can't accidentally be taken by someone else during the customer journey. 
+Originator: David Vreony - Software Engineer
+
