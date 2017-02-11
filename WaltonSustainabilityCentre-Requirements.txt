@@ -5,20 +5,14 @@ Rationale:
 Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
-REQ-ID: FR-1
-Description: After the booking of a workshop the product shall generate automatically a confirmation letter.
-Type: 9
-Rationale: To be able to send a confirmation letter to the customer.
-Originator: Daniel Steimetz - Software Engineer
-
 REQ-ID: FR-2
-Description: The product shall be able to reserve a chosen workshop.
+Description: The product shall be able to reserve a chosen workshop and send out a confirmation email when booked.
 Type: 9
 Rationale: To be able to reserve a chosen workshop.
 Originator: Daniel Steimetz - Software Engineer
 
 REQ-ID: FR-3
-Description: The product shall check that the payment due amount matches the agreed workshop fee amount.
+Description: The product shall check that the payment due amount matches the agreed workshop fee amount with the relevent discounts applied.
 Type: 9
 Rationale: The accounts department need to make sure that no erroneous or fraudulent payment requests are fulfilled.
 Originator: Lucy Withington - Software Engineer
@@ -28,12 +22,6 @@ Description: The product shall confirm that the payment transaction completed su
 Type: 9
 Rationale: The accounts department need to be made aware of any failed payments to ensure that they do not default on payments or submit erroneous accounts.
 Originator: Lucy Withington - Software Engineer
-
-REQ-ID: FR-5
-Description: The product shall applied the correct discount to the total workshop payment
-Type: 9
-Rationale: To ensure that the customer is not over charged when paying for a workshop.
-Originator: Ryan Schranz - Software Engineer
 
 REQ-ID: FR-6
 Description: The product shall allow searching for a member
@@ -45,14 +33,6 @@ REQ-ID: FR-7
 Description: The product shall allow entry of Credit \ Debit card details
 Type: 9
 Rationale: Payment details may not already be on the system, required in order to take a payment.
-Originator: David Vreony - Software Engineer
-
-REQ-ID: FR-8
-Description: The product shall allow confirmation of a reservation of a booking
-Type: 9
-Rationale: If reservation and confirmation are treated as 2 different events there is the ability to "hold"
-           a workshop slot between the Customer being told there is a place available and them successfully
-           completing payment. Means the slot can't accidentally be taken by someone else during the customer journey. 
 Originator: David Vreony - Software Engineer
 
 REQ-ID: FR-9
