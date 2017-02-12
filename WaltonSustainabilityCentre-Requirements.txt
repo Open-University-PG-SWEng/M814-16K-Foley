@@ -74,7 +74,7 @@ Rationale: To be able to compare current performance against past and planned pe
 Originator: Justin Cadogan
 
 REQ-ID: FR-12
-Description: Management reports should be viewable electronically or as a hard copy
-Type: Technological Requirement
-Rationale: Users may need to view report on an electronic device, or create hard copies to share by hand
+Description: The system should store past management reports
+Type: Business Requirement
+Rationale: For auditing purposes it will be important to keep copies of past reports
 Originator: Sam Bates – Software Engineer
