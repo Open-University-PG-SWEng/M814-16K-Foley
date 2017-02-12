@@ -52,7 +52,7 @@ Description: The product shall allow confirmation of a reservation of a booking
 Type: 9
 Rationale: If reservation and confirmation are treated as 2 different events there is the ability to "hold"
            a workshop slot between the Customer being told there is a place available and them successfully
-           completing payment. Means the slot can't accidentally be taken by someone else during the customer journey. 
+           completing payment. Means the slot can't accidentally be taken by someone else during the customer journey.
 Originator: David Vreony - Software Engineer
 
 REQ-ID: FR-9
@@ -66,3 +66,15 @@ Description: The product shall create supply orders based on required supplies.
 Type: 9
 Rationale: An operator needs to create a set of supply orders based on a list of required supplies, supplies should be grouped by the supplier.
 Originator: Jacek S Kutyla
+
+REQ-ID: FR-11
+Description: The system will produce management reports
+Type: Business requirement
+Rationale: To be able to compare current performance against past and planned performance on a regular basis
+Originator: Justin Cadogan
+
+REQ-ID: FR-12
+Description: Management reports should be viewable electronically or as a hard copy
+Type: Technological Requirement
+Rationale: The PDF format gives the flexibility to allow document to be viewed identically on a screen or on paper.
+Originator: Sam Bates – Software Engineer
