@@ -80,12 +80,25 @@ Rationale: For auditing purposes it will be important to keep copies of past rep
 Originator: Sam Bates – Software Engineer
 
 REQ-ID: FR-13
+Description: The product shall be capable of trigging bank transfers
+Type: Functional
+Rationale: To reduce the workload of the finance directors
+Originator: Marion Harkin 
+Comments: [GH] An expected invoice could perhaps be pre-authoried
+
+REQ-ID: FR-14
+Description: The product shall record the details and status of each of the invoices that the Centre receives
+Type: Functional
+Rationale: The financial information must go to the accountants at the end of the year so they can do a tax return
+Originator: Marion Harkin
+
+REQ-ID: FR-15
 Description: The product shall display a list of all available time slots for a specific workshop.
 Type: 9
 Rationale: The specific time slot cannot overide with another customer.
 Originator: Peter Athnasious - Software Engineer
 
-REQ-ID: FR-14
+REQ-ID: FR-16
 Description: The product shall provide a booking summary before payment is made.
 Type: 9
 Rationale: To check if customer details, allocated workshop time and date, payment information details are correct.
