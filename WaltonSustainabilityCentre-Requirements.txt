@@ -76,5 +76,5 @@ Originator: Justin Cadogan
 REQ-ID: FR-12
 Description: Management reports should be viewable electronically or as a hard copy
 Type: Technological Requirement
-Rationale: The PDF format gives the flexibility to allow document to be viewed identically on a screen or on paper.
+Rationale: Users may need to view report on an electronic device, or create hard copies to share by hand
 Originator: Sam Bates – Software Engineer
