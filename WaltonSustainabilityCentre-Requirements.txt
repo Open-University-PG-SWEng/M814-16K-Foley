@@ -1,0 +1,127 @@
+﻿REQ-ID:
+Description:
+Type:
+Rationale:
+Originator:
+Comments: [M814-ModuleChair] Copy this template below to add new requirements.
+
+REQ-ID: FR-1
+Description: After the booking of a workshop the product shall generate automatically a confirmation letter.
+Type: 9
+Rationale: To be able to send a confirmation letter to the customer.
+Originator: Daniel Steimetz - Software Engineer
+
+REQ-ID: FR-2
+Description: The product shall be able to reserve a chosen workshop.
+Type: 9
+Rationale: To be able to reserve a chosen workshop.
+Originator: Daniel Steimetz - Software Engineer
+
+REQ-ID: FR-3
+Description: The product shall check that the payment due amount matches the agreed workshop fee amount.
+Type: 9
+Rationale: The accounts department need to make sure that no erroneous or fraudulent payment requests are fulfilled.
+Originator: Lucy Withington - Software Engineer
+
+REQ-ID: FR-4
+Description: The product shall confirm that the payment transaction completed successfully.
+Type: 9
+Rationale: The accounts department need to be made aware of any failed payments to ensure that they do not default on payments or submit erroneous accounts.
+Originator: Lucy Withington - Software Engineer
+
+REQ-ID: FR-5
+Description: The product shall applied the correct discount to the total workshop payment
+Type: 9
+Rationale: To ensure that the customer is not over charged when paying for a workshop.
+Originator: Ryan Schranz - Software Engineer
+
+REQ-ID: FR-6
+Description: The product shall allow searching for a member
+Type: 9
+Rationale: The clerk can find the member details with varying degrees of information given.
+Originator: Ryan Schranz - Software Engineer
+
+REQ-ID: FR-7
+Description: The product shall allow entry of Credit \ Debit card details
+Type: 9
+Rationale: Payment details may not already be on the system, required in order to take a payment.
+Originator: David Vreony - Software Engineer
+
+REQ-ID: FR-8
+Description: The product shall allow confirmation of a reservation of a booking
+Type: 9
+Rationale: If reservation and confirmation are treated as 2 different events there is the ability to "hold"
+           a workshop slot between the Customer being told there is a place available and them successfully
+           completing payment. Means the slot can't accidentally be taken by someone else during the customer journey.
+Originator: David Vreony - Software Engineer
+
+REQ-ID: FR-9
+Description: The product shall provide a list of all activities scheduled for a certain time.
+Type: 9
+Rationale: An operator preparing supply orders needs to see a list of all activities in the future so they could create a list of required supplies.
+Originator: Jacek S Kutyla
+
+REQ-ID: FR-10
+Description: The product shall create supply orders based on required supplies.
+Type: 9
+Rationale: An operator needs to create a set of supply orders based on a list of required supplies, supplies should be grouped by the supplier.
+Originator: Jacek S Kutyla
+
+REQ-ID: FR-11
+Description: The system will produce management reports
+Type: Business requirement
+Rationale: To be able to compare current performance against past and planned performance on a regular basis
+Originator: Sam Bates
+
+REQ-ID: FR-12
+Description: The system should store past management reports
+Type: Business Requirement
+Rationale: For auditing purposes it will be important to keep copies of past reports
+Originator: Sam Bates
+
+REQ-ID: FR-13
+Description: The product shall be capable of trigging bank transfers
+Type: Functional
+Rationale: To reduce the workload of the finance directors
+Originator: Marion Harkin 
+Comments: [GH] An expected invoice could perhaps be pre-authoried
+
+REQ-ID: FR-14
+Description: The product shall record the details and status of each of the invoices that the Centre receives
+Type: Functional
+Rationale: The financial information must go to the accountants at the end of the year so they can do a tax return
+Originator: Marion Harkin
+
+REQ-ID: FR-15
+Description: The product shall display a list of all available time slots for a specific workshop.
+Type: 9
+Rationale: The specific time slot cannot overide with another customer.
+Originator: Peter Athnasious - Software Engineer
+
+REQ-ID: FR-16
+Description: The product shall provide a booking summary before payment is made.
+Type: 9
+Rationale: To check if customer details, allocated workshop time and date, payment information details are correct.
+Originator: Peter Athnasious - Software Engineer
+
+REQ-ID: FR-17
+Description: The product shall identify all items that have been ordered and have not yet been received.
+Type: Business requirement
+Rationale: Items that arrive in a delivery must be checked against what has been ordered so that the delivery and supplier invoice can be reconciled.
+Originator: Marion
+
+REQ-ID: FR-18
+Description: The product shall identify items that are urgently needed
+Type: Business requirement
+Rationale: Items can be ordered for specific events/workshops, if the delivery is delayed for some reason the item may be wanted for use immediately and this should be apparent to whoever receives the delivery.
+Originator: Sam Woodfine
+
+REQ-ID: FR-19 
+Description: The product shall record membership details of customers. 
+Rationale: Memberships are used by the centre to apply booking discounts and perks, as well as making it easier for members to make reservations. 
+Originator: Adam Boothroyd 
+
+REQ-ID: FR-20 
+Description: The product shall generate management reports when specified. 
+Rationale: Staff require management reports, both on a periodical and ad-hoc basis, to facilitate business processes. 
+Originator: Adam Boothroyd
