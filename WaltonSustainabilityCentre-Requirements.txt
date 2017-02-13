@@ -115,3 +115,13 @@ Description: The product shall identify items that are urgently needed
 Type: Business requirement
 Rationale: Items can be ordered for specific events/workshops, if the delivery is delayed for some reason the item may be wanted for use immediately and this should be apparent to whoever receives the delivery.
 Originator: Sam Woodfine
+
+REQ-ID: FR-19 
+Description: The product shall record membership details of customers. 
+Rationale: Memberships are used by the centre to apply booking discounts and perks, as well as making it easier for members to make reservations. 
+Originator: Adam Boothroyd 
+
+REQ-ID: FR-20 
+Description: The product shall generate management reports when specified. 
+Rationale: Staff require management reports, both on a periodical and ad-hoc basis, to facilitate business processes. 
+Originator: Adam Boothroyd
