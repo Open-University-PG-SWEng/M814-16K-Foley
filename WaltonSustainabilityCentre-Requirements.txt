@@ -125,3 +125,13 @@ REQ-ID: FR-20
 Description: The product shall generate management reports when specified. 
 Rationale: Staff require management reports, both on a periodical and ad-hoc basis, to facilitate business processes. 
 Originator: Adam Boothroyd
+
+REQ-ID: FR-23
+Description: The product shall only make a reservation for the customer once their payment method accepted. Specifically, this involves the product waiting until an adequate response is received from the accounting software, before making a reservation.
+Rationale: This prevents a customer from not paying by using fraudulent details. However, if the customer is legitimate, but unaware they have an invalid payment method, this saves the customer’s time by notifying them immediately that something is wrong. It also saves the business time by making sure activity slots are only taken by paying customers.
+Originator: Tony Lin - Software Engineer
+
+REQ-ID: FR-24
+Description: The product shall send the customer a booking confirmation by email after the reservation has been made. The contents of this email is dictated by the activity organisers; fetching this contents is another requirement.
+Rationale: This serves as a reminder to the customer, as well as providing useful contact details and potentially, advertisement and future offers.
+Originator: Tony Lin - Software Engineer
