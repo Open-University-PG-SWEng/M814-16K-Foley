@@ -1,4 +1,4 @@
-﻿REQ-ID:
+REQ-ID:
 Description:
 Type:
 Rationale:
@@ -78,15 +78,3 @@ Description: The system should store past management reports
 Type: Business Requirement
 Rationale: For auditing purposes it will be important to keep copies of past reports
 Originator: Sam Bates – Software Engineer
-
-REQ-ID: FR-13
-Description: The product shall display a list of all available time slots for a specific workshop.
-Type: 9
-Rationale: The specific time slot cannot overide with another customer.
-Originator: Peter Athnasious - Software Engineer
-
-REQ-ID: FR-14
-Description: The product shall provide a booking summary before payment is made.
-Type: 9
-Rationale: To check if customer details, allocated workshop time and date, payment information details are correct.
-Originator: Peter Athnasious - Software Engineer
