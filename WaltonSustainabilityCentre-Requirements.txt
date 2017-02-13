@@ -83,14 +83,14 @@ REQ-ID: FR-13
 Description: The product shall be capable of trigging bank transfers
 Type: Functional
 Rationale: To reduce the workload of the finance directors
-Originator: Marion Harkin 
+Originator: Geoffrey Hayward
 Comments: [GH] An expected invoice could perhaps be pre-authoried
 
 REQ-ID: FR-14
 Description: The product shall record the details and status of each of the invoices that the Centre receives
 Type: Functional
 Rationale: The financial information must go to the accountants at the end of the year so they can do a tax return
-Originator: Marion Harkin
+Originator: Geoffrey Hayward
 
 REQ-ID: FR-15
 Description: The product shall display a list of all available time slots for a specific workshop.
