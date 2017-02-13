@@ -71,13 +71,13 @@ REQ-ID: FR-11
 Description: The system will produce management reports
 Type: Business requirement
 Rationale: To be able to compare current performance against past and planned performance on a regular basis
-Originator: Justin Cadogan
+Originator: Sam Bates
 
 REQ-ID: FR-12
 Description: The system should store past management reports
 Type: Business Requirement
 Rationale: For auditing purposes it will be important to keep copies of past reports
-Originator: Sam Bates – Software Engineer
+Originator: Sam Bates
 
 REQ-ID: FR-13
 Description: The product shall be capable of trigging bank transfers
