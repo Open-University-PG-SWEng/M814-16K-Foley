@@ -103,3 +103,15 @@ Description: The product shall provide a booking summary before payment is made.
 Type: 9
 Rationale: To check if customer details, allocated workshop time and date, payment information details are correct.
 Originator: Peter Athnasious - Software Engineer
+
+REQ-ID: FR-17
+Description: The product shall identify all items that have been ordered and have not yet been received.
+Type: Business requirement
+Rationale: Items that arrive in a delivery must be checked against what has been ordered so that the delivery and supplier invoice can be reconciled.
+Originator: Marion
+
+REQ-ID: FR-18
+Description: The product shall identify items that are urgently needed
+Type: Business requirement
+Rationale: Items can be ordered for specific events/workshops, if the delivery is delayed for some reason the item may be wanted for use immediately and this should be apparent to whoever receives the delivery.
+Originator: Sam Woodfine
