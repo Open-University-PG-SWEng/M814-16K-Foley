@@ -139,3 +139,17 @@ Type: Functional requirement
 Rationale: This serves as a reminder to the customer, as well as providing useful contact details and potentially, advertisement and future offers.
 Originator: Tony Lin - Software Engineer
 Comments: The contents of this email is dictated by the activity organisers; fetching this contents is another requirement.
+
+REQ-ID: FR-25
+Description: The system shall provide a list of available equipment.
+Type: Functional
+Rationale: This allows the user of the system to make sure certain equipment is available on specific dates. This will stop a customer being promised a piece of equipment that is not available.
+Originator: Daniel McAssey - Software Engineer
+Comments: This is specifically for showing a list of available equipment to the customer.
+
+REQ-ID: FR-26
+Description: The system shall provide a list of bookings of equipment.
+Type: Functional
+Rationale: This allows a user of the system to view what equipment is currently booked, this will allow a user to determine if they need to order more of a heavily used piece of equipment.
+Originator: Daniel McAssey - Software Engineer
+Comments: This requirement is for the user of the system to view what is currently booked out and possibly generate reports on what is most used, however that would be a seperate requirement.
