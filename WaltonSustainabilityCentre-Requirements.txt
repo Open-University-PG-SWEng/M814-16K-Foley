@@ -164,4 +164,4 @@ Description: The system shall provide a list of bookings of equipment.
 Type: Functional
 Rationale: This allows a user of the system to view what equipment is currently booked, this will allow a user to determine if they need to order more of a heavily used piece of equipment.
 Originator: Daniel McAssey - Software Engineer
-Comments: This requirement is for the user of the system to view what is currently booked out and possibly generate reports on what is most used, however that would be a seperate requirement.
+Comments: This requirement is for the user of the system to view what is currently booked out and possibly generate reports on what is most used, however that would be a seperate requirement. 
