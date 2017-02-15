@@ -71,10 +71,97 @@ REQ-ID: FR-11
 Description: The system will produce management reports
 Type: Business requirement
 Rationale: To be able to compare current performance against past and planned performance on a regular basis
-Originator: Justin Cadogan
+Originator: Sam Bates
 
 REQ-ID: FR-12
 Description: The system should store past management reports
 Type: Business Requirement
 Rationale: For auditing purposes it will be important to keep copies of past reports
-Originator: Sam Bates – Software Engineer
+Originator: Sam Bates
+
+REQ-ID: FR-13
+Description: The product shall be capable of trigging bank transfers
+Type: Functional
+Rationale: To reduce the workload of the finance directors
+Originator: Geoffrey Hayward
+Comments: [GH] An expected invoice could perhaps be pre-authoried
+
+REQ-ID: FR-14
+Description: The product shall record the details and status of each of the invoices that the Centre receives
+Type: Functional
+Rationale: The financial information must go to the accountants at the end of the year so they can do a tax return
+Originator: Geoffrey Hayward
+
+REQ-ID: FR-15
+Description: The product shall display a list of all available time slots for a specific workshop.
+Type: 9
+Rationale: The specific time slot cannot overide with another customer.
+Originator: Peter Athnasious - Software Engineer
+
+REQ-ID: FR-16
+Description: The product shall provide a booking summary before payment is made.
+Type: 9
+Rationale: To check if customer details, allocated workshop time and date, payment information details are correct.
+Originator: Peter Athnasious - Software Engineer
+
+REQ-ID: FR-17
+Description: The product shall identify all items that have been ordered and have not yet been received.
+Type: Business requirement
+Rationale: Items that arrive in a delivery must be checked against what has been ordered so that the delivery and supplier invoice can be reconciled.
+Originator: Marion
+
+REQ-ID: FR-18
+Description: The product shall identify items that are urgently needed
+Type: Business requirement
+Rationale: Items can be ordered for specific events/workshops, if the delivery is delayed for some reason the item may be wanted for use immediately and this should be apparent to whoever receives the delivery.
+Originator: Sam Woodfine
+
+REQ-ID: FR-19
+Description: The product shall record membership details of customers.
+Rationale: Memberships are used by the centre to apply booking discounts and perks, as well as making it easier for members to make reservations.
+Originator: Adam Boothroyd
+
+REQ-ID: FR-20
+Description: The product shall generate management reports when specified.
+Rationale: Staff require management reports, both on a periodical and ad-hoc basis, to facilitate business processes.
+Originator: Adam Boothroyd
+
+REQ-ID: FR-21
+Description: The product shall identify the membership details of the customer.
+Type: 9
+Rationale: If the customer is not an existing member, then the membership discount cannot be applied.
+Originator: Thejas Kumar - Software Engineer
+
+REQ-ID: FR-22
+Description: The product shall check the availability for the workshop or class.
+Type: 9
+Rationale: If there are no available spaces for the workshop, then the customer should not be allowed to book.
+Originator: Thejas Kumar - Software Engineer
+
+REQ-ID: FR-23
+Description: The product shall only make a reservation for the customer once their payment method accepted. Specifically, this involves the product waiting until an adequate response is received from the accounting software, before making a reservation.
+Type: Functional requirement
+Rationale: This prevents a customer from not paying by using fraudulent details. However, if the customer is legitimate, but unaware they have an invalid payment method, this saves the customer’s time by notifying them immediately that something is wrong. It also saves the business time by making sure activity slots are only taken by paying customers.
+Originator: Tony Lin - Software Engineer
+Comments: None
+
+REQ-ID: FR-24
+Description: The product shall send the customer a booking confirmation by email after the reservation has been made.
+Type: Functional requirement
+Rationale: This serves as a reminder to the customer, as well as providing useful contact details and potentially, advertisement and future offers.
+Originator: Tony Lin - Software Engineer
+Comments: The contents of this email is dictated by the activity organisers; fetching this contents is another requirement.
+
+REQ-ID: FR-25
+Description: The system shall provide a list of available equipment.
+Type: Functional
+Rationale: This allows the user of the system to make sure certain equipment is available on specific dates. This will stop a customer being promised a piece of equipment that is not available.
+Originator: Daniel McAssey - Software Engineer
+Comments: This is specifically for showing a list of available equipment to the customer.
+
+REQ-ID: FR-26
+Description: The system shall provide a list of bookings of equipment.
+Type: Functional
+Rationale: This allows a user of the system to view what equipment is currently booked, this will allow a user to determine if they need to order more of a heavily used piece of equipment.
+Originator: Daniel McAssey - Software Engineer
+Comments: This requirement is for the user of the system to view what is currently booked out and possibly generate reports on what is most used, however that would be a seperate requirement.
