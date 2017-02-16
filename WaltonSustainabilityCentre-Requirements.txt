@@ -67,7 +67,7 @@ Type: 9
 Rationale: An operator needs to create a set of supply orders based on a list of required supplies, supplies should be grouped by the supplier.
 Originator: Jacek S Kutyla
 
-REQ-ID: FR-11
+REQ-ID: FR-11 - CANCELLED, replaced by REQ-30
 Description: The system will produce management reports
 Type: Business requirement
 Rationale: To be able to compare current performance against past and planned performance on a regular basis
@@ -121,7 +121,7 @@ Description: The product shall record membership details of customers.
 Rationale: Memberships are used by the centre to apply booking discounts and perks, as well as making it easier for members to make reservations. 
 Originator: Adam Boothroyd 
 
-REQ-ID: FR-20 
+REQ-ID: FR-20 - CANCELLED, replaced by REQ-30
 Description: The product shall generate management reports when specified. 
 Rationale: Staff require management reports, both on a periodical and ad-hoc basis, to facilitate business processes. 
 Originator: Adam Boothroyd
@@ -145,7 +145,7 @@ Rationale: This prevents a customer from not paying by using fraudulent details.
 Originator: Tony Lin - Software Engineer
 Comments: None
 
-REQ-ID: FR-24 CANCELLED, replaced by REQ-29
+REQ-ID: FR-24 - CANCELLED, replaced by REQ-29
 Description: The product shall send the customer a booking confirmation by email after the reservation has been made.
 Type: Functional requirement
 Rationale: This serves as a reminder to the customer, as well as providing useful contact details and potentially, advertisement and future offers.
@@ -172,15 +172,36 @@ Type: Business requirement
 Rationale: So Members do not miss out on their benefits 
 source: James Peters
 
-REQ-ID: FR-28
+REQ-ID: FR-28 - CANCELLED, replaced by REQ-32
 Discription: The system should be able to give ad-hoc management reports.
 Type: Business requirement
 Rationale: To analyse business performance at any given time.
 source: James Peters
 
 REQ-ID: FR-29
-Discription: The product shall automatically provide a confirmation of the activity booking to the member.
+Description: The product shall automatically provide a confirmation of the activity booking to the member.
 Type: 9
 Rationale: So it is easy to provide a member with a confirmation without any additional work.
 Originator: Jacek S Kutyla
 Comments: replaces REQ-1, REQ-8 and REQ-24
+
+REQ-ID: FR-30
+Description: The product shall generate management reports.
+Type: 9
+Rationale: So it is possible to compare current performance with both previous performance and planned performance.
+Originator: Jacek S Kutyla (originally provided by Sam Bates)
+Comments: replaces REQ-11
+
+REQ-ID: FR-31
+Description: The product shall provide generated management reports on periodical basis.
+Type: 9
+Rationale: So recently generated reports are always available for comparing current performance with both previous performance and planned performance.
+Originator: Jacek S Kutyla (originally provided by Adam Boothroyd)
+Comments: replaces REQ-20
+
+REQ-ID: FR-32
+Description: The product shall provide generated management reports on periodical basis.
+Type: 9
+Rationale: So most current reports are available for comparing current performance with both previous performance and planned performance.
+Originator: Jacek S Kutyla (originally provided by James Peters)
+Comments: replaces REQ-28
