@@ -5,7 +5,7 @@ Rationale:
 Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
-REQ-ID: FR-1
+REQ-ID: FR-1 - CANCELLED, replaced by REQ-29
 Description: After the booking of a workshop the product shall generate automatically a confirmation letter.
 Type: 9
 Rationale: To be able to send a confirmation letter to the customer.
@@ -47,7 +47,7 @@ Type: 9
 Rationale: Payment details may not already be on the system, required in order to take a payment.
 Originator: David Vreony - Software Engineer
 
-REQ-ID: FR-8
+REQ-ID: FR-8 CANCELLED, replaced by REQ-29
 Description: The product shall allow confirmation of a reservation of a booking
 Type: 9
 Rationale: If reservation and confirmation are treated as 2 different events there is the ability to "hold"
@@ -145,7 +145,7 @@ Rationale: This prevents a customer from not paying by using fraudulent details.
 Originator: Tony Lin - Software Engineer
 Comments: None
 
-REQ-ID: FR-24
+REQ-ID: FR-24 CANCELLED, replaced by REQ-29
 Description: The product shall send the customer a booking confirmation by email after the reservation has been made.
 Type: Functional requirement
 Rationale: This serves as a reminder to the customer, as well as providing useful contact details and potentially, advertisement and future offers.
@@ -178,4 +178,9 @@ Type: Business requirement
 Rationale: To analyse business performance at any given time.
 source: James Peters
 
-
+REQ-ID: FR-29
+Discription: The product shall automatically provide a confirmation of the activity booking to the member.
+Type: 9
+Rationale: So it is easy to provide a member with a confirmation without any additional work.
+Originator: Jacek S Kutyla
+Comments: replaces REQ-1, REQ-8 and REQ-24
