@@ -165,6 +165,7 @@ Type: Functional
 Rationale: This allows a user of the system to view what equipment is currently booked, this will allow a user to determine if they need to order more of a heavily used piece of equipment.
 Originator: Daniel McAssey - Software Engineer
 Comments: This requirement is for the user of the system to view what is currently booked out and possibly generate reports on what is most used, however that would be a seperate requirement.
+<<<<<<< HEAD
 
 REQ-ID: FR-27
 Discription: Members need to have their discounts applied when booking workshops.
@@ -177,3 +178,5 @@ Discription: The system should be able to give ad-hoc management reports.
 Type: Business requirement
 Rationale: To analyse business performance at any given time.
 source: James Peters
+=======
+>>>>>>> c79d2646e9c21315fc37f43f1756fc01da38a951
