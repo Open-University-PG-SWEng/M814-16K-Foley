@@ -47,7 +47,7 @@ Type: 9
 Rationale: Payment details may not already be on the system, required in order to take a payment.
 Originator: David Vreony - Software Engineer
 
-REQ-ID: FR-8 CANCELLED, replaced by REQ-29
+REQ-ID: FR-8
 Description: The product shall allow confirmation of a reservation of a booking
 Type: 9
 Rationale: If reservation and confirmation are treated as 2 different events there is the ability to "hold"
@@ -183,7 +183,7 @@ Description: The product shall automatically provide a confirmation of the activ
 Type: 9
 Rationale: So it is easy to provide a member with a confirmation without any additional work.
 Originator: Jacek S Kutyla
-Comments: replaces REQ-1, REQ-8 and REQ-24
+Comments: replaces REQ-1 and REQ-24
 
 REQ-ID: FR-30
 Description: The product shall generate management reports.
