@@ -12,12 +12,12 @@ Rationale: To be able to send a confirmation the customer.
 Originator: Daniel Steimetz, Tony Lin - Software Engineering
 Comments [GH] Removed techological bias from the description and rationale.
 
-
 REQ-ID: FR-2
-Description: The product shall be able to reserve a chosen workshop.
+Description: The product shall be able to make reservations.
 Type: 9
-Rationale: To be able to reserve a chosen workshop.
-Originator: Daniel Steimetz - Software Engineer
+Rationale: To be able to reserve a workshop.  
+Originator: Daniel Steimetz - Software Engineer, David Vreony - Software Engineer, Geoff Hayward
+Comments [GH] Transactional, a place must be held during processing. 
 
 REQ-ID: FR-3
 Description: The product shall check that the payment due amount matches the agreed workshop fee amount.
@@ -49,13 +49,7 @@ Type: 9
 Rationale: Payment details may not already be on the system, required in order to take a payment.
 Originator: David Vreony - Software Engineer
 
-REQ-ID: FR-8
-Description: The product shall allow confirmation of a reservation of a booking
-Type: 9
-Rationale: If reservation and confirmation are treated as 2 different events there is the ability to "hold"
-           a workshop slot between the Customer being told there is a place available and them successfully
-           completing payment. Means the slot can't accidentally be taken by someone else during the customer journey.
-Originator: David Vreony - Software Engineer
+
 
 REQ-ID: FR-9
 Description: The product shall provide a list of all activities scheduled for a certain time.
