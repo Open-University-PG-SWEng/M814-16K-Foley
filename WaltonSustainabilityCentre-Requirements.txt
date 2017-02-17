@@ -116,17 +116,17 @@ Type: Business requirement
 Rationale: Items can be ordered for specific events/workshops, if the delivery is delayed for some reason the item may be wanted for use immediately and this should be apparent to whoever receives the delivery.
 Originator: Sam Woodfine
 
-REQ-ID: FR-19 
+REQ-ID: FR-19 CANCELLED, replaced by FR-33
 Description: The product shall record membership details of customers. 
 Rationale: Memberships are used by the centre to apply booking discounts and perks, as well as making it easier for members to make reservations. 
-Originator: Adam Boothroyd 
+Originator: Adam Boothroyd
 
 REQ-ID: FR-20 
 Description: The product shall generate management reports when specified. 
 Rationale: Staff require management reports, both on a periodical and ad-hoc basis, to facilitate business processes. 
 Originator: Adam Boothroyd
 
-REQ-ID: FR-21
+REQ-ID: FR-21 CANCELLED, replaced by FR-33
 Description: The product shall identify the membership details of the customer.
 Type: 9
 Rationale: If the customer is not an existing member, then the membership discount cannot be applied.
@@ -178,4 +178,9 @@ Type: Business requirement
 Rationale: To analyse business performance at any given time.
 source: James Peters
 
-
+REQ-ID: FR-33
+Description: The system should record the membership details of a customer if a customer does not already exist.
+Type: Functional
+Rationale: This allows a system to identify if they are a previous customer or a new customer to the system, as well as apply appropriate discount.
+Originator: Daniel McAssey - Software Engineer
+Comments: More specific wording on what the requirement is about.
