@@ -121,13 +121,7 @@ Originator: Sam Woodfine
 REQ-ID: FR-19 
 Description: The product shall record membership details of customers. 
 Rationale: Memberships are used by the centre to apply booking discounts and perks, as well as making it easier for members to make reservations. 
-Originator: Adam Boothroyd 
-
-REQ-ID: FR-21
-Description: The product shall identify the membership details of the customer.
-Type: 9
-Rationale: If the customer is not an existing member, then the membership discount cannot be applied.
-Originator: Thejas Kumar - Software Engineer
+Originator: Adam Boothroyd, Thejas Kumar - Software Engineer
 
 REQ-ID: FR-22
 Description: The product shall check the availability for the workshop or class.
