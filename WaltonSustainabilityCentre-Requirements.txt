@@ -205,3 +205,23 @@ Type: 9
 Rationale: So most current reports are available for comparing current performance with both previous performance and planned performance.
 Originator: Jacek S Kutyla (originally provided by James Peters)
 Comments: replaces REQ-28
+
+
+--------------------
+Summary:
+REQ-2 - no modifications made
+REQ-8 - no modifications made
+REQ-29 replaces REQ-1 and REQ-24
+REQ-30 replaces REQ-11
+REQ-31 replaces REQ-20
+REQ-32 replaces REQ-28
+
+Notes:
+- requirements which in my opinion should be deleted are marked with a CANCELLED token
+- new requirements are at the end of the list, REQ-29 to REQ-32, I kept original authors in brackets
+- references were made between relevant entries
+
+Rationale:
+As the work on this document was a continuous one, I did not want to just delete duplicates as it would make it harder
+to traces potential new requirements in the main file (master branch). I believe, that in this way all history has been
+preserved and it is clear what I have done.
