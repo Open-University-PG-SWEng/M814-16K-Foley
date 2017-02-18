@@ -116,7 +116,7 @@ Rationale: Memberships are used by the centre to apply booking discounts and per
 Originator: Adam Boothroyd 
 
 REQ-ID: FR-20 
-Description: The product shall generate management reports on a periodic basis. 
+Description: The product shall generate management reports on a periodic (time-triggered) basis. 
 Rationale: Staff require management reports, both on a periodical and ad-hoc basis, to facilitate business processes. 
 Originator: Adam Boothroyd
 
