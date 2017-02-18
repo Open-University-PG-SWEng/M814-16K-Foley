@@ -8,7 +8,7 @@ Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 REQ-ID: FR-1
 Description: After the booking of a workshop the product shall automatically provide confirmation to the customer.
 Type: 9
-Rationale: To be able to send a confirmation letter to the customer.
+Rationale: To be able to provide confirmation to the customer.
 Originator: Daniel Steimetz - Software Engineer
 
 REQ-ID: FR-2
