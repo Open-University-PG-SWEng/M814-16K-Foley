@@ -76,7 +76,7 @@ Rationale: For auditing purposes it will be important to keep copies of past rep
 Originator: Sam Bates
 
 REQ-ID: FR-13
-Description: The product shall be capable of trigging bank transfers
+Description: The product shall be capable of triggering bank transfers
 Type: Functional
 Rationale: To reduce the workload of the finance directors
 Originator: Geoffrey Hayward
