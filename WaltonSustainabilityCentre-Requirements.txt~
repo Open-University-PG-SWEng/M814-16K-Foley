@@ -6,10 +6,10 @@ Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
 REQ-ID: FR-1
-Description: After the booking of a workshop the product shall generate automatically a confirmation.
+Description: After the booking of a workshop the product shall generate automatically a confirmation, which shall be send by email or shall be send as a physical letter.
 Type: 9
-Rationale: To be able to send a confirmation to the customer.
-Originator: Daniel Steimetz - Software Engineer
+Rationale: To be able to send a confirmation by email or by a physical letter to the customer.
+Originator: Daniel Steimetz, Tony Lin - Software Engineer
 
 REQ-ID: FR-2
 Description: The product shall be able to reserve a chosen workshop.
