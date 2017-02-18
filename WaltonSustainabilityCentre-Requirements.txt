@@ -178,4 +178,16 @@ Type: Business requirement
 Rationale: To analyse business performance at any given time.
 source: James Peters
 
+REQ-ID: FR-29
+Description: The product shall check the callers name against the membership list.
+Type: Functional requirement
+Rationale: To ascertain if the caller is a member of the centre.
+Originator: Robert Bashford - SOftware engineer
+Comment: requirement elicited from marion 
 
+REQ-ID: FR-30
+Description: The product shall apply the discount to a mambers booking fee
+Type: Functional requirement
+Rationale: To ensure that a member receives the discount to which their membership entitles them
+Originator: Robert Bashford - SOftware engineer 
+Comment: requirement elicited from marion
