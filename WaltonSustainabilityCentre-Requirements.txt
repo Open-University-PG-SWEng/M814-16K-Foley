@@ -121,10 +121,6 @@ Description: The product shall record membership details of customers.
 Rationale: Memberships are used by the centre to apply booking discounts and perks, as well as making it easier for members to make reservations. 
 Originator: Adam Boothroyd 
 
-REQ-ID: FR-20 
-Description: The product shall generate management reports when specified. 
-Rationale: Staff require management reports, both on a periodical and ad-hoc basis, to facilitate business processes. 
-Originator: Adam Boothroyd
 
 REQ-ID: FR-21
 Description: The product shall identify the membership details of the customer.
