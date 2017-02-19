@@ -1,17 +1,4 @@
-﻿REQ-ID:
-Description:
-Type:
-Rationale:
-Originator:
-Comments: [M814-ModuleChair] Copy this template below to add new requirements.
-
-REQ-ID: FR-1
-Description: After the booking of a workshop the product shall generate automatically a confirmation letter.
-Type: 9
-Rationale: To be able to send a confirmation letter to the customer.
-Originator: Daniel Steimetz - Software Engineer
-
-REQ-ID: FR-2
+﻿REQ-ID: FR-2
 Description: The product shall be able to reserve a chosen workshop.
 Type: 9
 Rationale: To be able to reserve a chosen workshop.
@@ -28,12 +15,6 @@ Description: The product shall confirm that the payment transaction completed su
 Type: 9
 Rationale: The accounts department need to be made aware of any failed payments to ensure that they do not default on payments or submit erroneous accounts.
 Originator: Lucy Withington - Software Engineer
-
-REQ-ID: FR-5
-Description: The product shall applied the correct discount to the total workshop payment
-Type: 9
-Rationale: To ensure that the customer is not over charged when paying for a workshop.
-Originator: Ryan Schranz - Software Engineer
 
 REQ-ID: FR-6
 Description: The product shall allow searching for a member
@@ -121,11 +102,6 @@ Description: The product shall record membership details of customers.
 Rationale: Memberships are used by the centre to apply booking discounts and perks, as well as making it easier for members to make reservations. 
 Originator: Adam Boothroyd 
 
-REQ-ID: FR-20 
-Description: The product shall generate management reports when specified. 
-Rationale: Staff require management reports, both on a periodical and ad-hoc basis, to facilitate business processes. 
-Originator: Adam Boothroyd
-
 REQ-ID: FR-21
 Description: The product shall identify the membership details of the customer.
 Type: 9
@@ -145,13 +121,6 @@ Rationale: This prevents a customer from not paying by using fraudulent details.
 Originator: Tony Lin - Software Engineer
 Comments: None
 
-REQ-ID: FR-24
-Description: The product shall send the customer a booking confirmation by email after the reservation has been made.
-Type: Functional requirement
-Rationale: This serves as a reminder to the customer, as well as providing useful contact details and potentially, advertisement and future offers.
-Originator: Tony Lin - Software Engineer
-Comments: The contents of this email is dictated by the activity organisers; fetching this contents is another requirement.
-
 REQ-ID: FR-25
 Description: The system shall provide a list of available equipment.
 Type: Functional
@@ -165,18 +134,6 @@ Type: Functional
 Rationale: This allows a user of the system to view what equipment is currently booked, this will allow a user to determine if they need to order more of a heavily used piece of equipment.
 Originator: Daniel McAssey - Software Engineer
 Comments: This requirement is for the user of the system to view what is currently booked out and possibly generate reports on what is most used, however that would be a seperate requirement.
-
-REQ-ID: FR-27
-Discription: Members need to have their discounts applied when booking workshops.
-Type: Business requirement
-Rationale: So Members do not miss out on their benefits 
-source: James Peters
-
-REQ-ID: FR-28
-Discription: The system should be able to give ad-hoc management reports.
-Type: Business requirement
-Rationale: To analyse business performance at any given time.
-source: James Peters
 
 REQ-ID: FR-29
 Description: The product shall check the callers name against the membership list.
