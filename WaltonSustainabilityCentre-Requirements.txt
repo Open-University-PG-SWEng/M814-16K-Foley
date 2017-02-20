@@ -63,12 +63,6 @@ Type: 9
 Rationale: An operator needs to create a set of supply orders based on a list of required supplies, supplies should be grouped by the supplier.
 Originator: Jacek S Kutyla
 
-REQ-ID: FR-11
-Description: The system will produce management reports
-Type: Business requirement
-Rationale: To be able to compare current performance against past and plan performance on a periodical and ad-hoc basis.
-Originator: Sam Bates,  Adam Boothroyd
-
 REQ-ID: FR-12
 Description: The system should store past management reports
 Type: Business Requirement
@@ -155,6 +149,6 @@ REQ-ID: FR-28
 Discription: The system should be able to give ad-hoc management reports.
 Type: Business requirement
 Rationale: To analyse business performance at any given time.
-source: James Peters
+source: James Peters, Sam Bates,  Adam Boothroyd
 
 
