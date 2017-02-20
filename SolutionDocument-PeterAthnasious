@@ -1,8 +1,0 @@
-The removal of FR-1 reason being that this functional requirement is similar to FR-16 as it sends a confirmation letter whereas FR-16 
-creates a booking summary, showing time and space allocated to make confirmation of the correct details.
-
-The removal of FR-24 reason being that this functional requirement clashes with FR-16 for the same reasons as FR-1 but does not specify
-the summary of the booking and is leaning towards marketing.
-
-The removal of FR-27 reason being that this functional requirement clashes with with FR-21 which already states that when a member is
-identified then the discount must be applied on the basis that the booking is not made by a new customer.
