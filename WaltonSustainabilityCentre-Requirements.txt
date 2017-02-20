@@ -31,12 +31,6 @@ Type: 9
 Rationale: The accounts department need to be made aware of any failed payments to ensure that they do not default on payments or submit erroneous accounts.
 Originator: Lucy Withington - Software Engineer
 
-REQ-ID: FR-5
-Description: The product shall applied the correct discount to the total workshop payment
-Type: 9
-Rationale: To ensure that the customer is not over charged when paying for a workshop.
-Originator: Ryan Schranz - Software Engineer
-
 REQ-ID: FR-6
 Description: The product shall allow searching for a member
 Type: 9
@@ -48,8 +42,6 @@ Description: The product shall allow entry of Credit \ Debit card details
 Type: 9
 Rationale: Payment details may not already be on the system, required in order to take a payment.
 Originator: David Vreony - Software Engineer
-
-
 
 REQ-ID: FR-9
 Description: The product shall provide a list of all activities scheduled for a certain time.
@@ -143,7 +135,7 @@ REQ-ID: FR-27
 Discription: Members need to have their discounts applied when booking workshops.
 Type: Business requirement
 Rationale: So Members do not miss out on their benefits 
-source: James Peters
+source: James Peters, Ryan Schranz - Software Engineer
 
 REQ-ID: FR-28
 Discription: The system should be able to give ad-hoc management reports.
