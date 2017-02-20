@@ -5,12 +5,6 @@ Rationale:
 Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
-REQ-ID: FR-1
-Description: After the booking of a workshop the product shall generate automatically a confirmation letter.
-Type: 9
-Rationale: To be able to send a confirmation letter to the customer.
-Originator: Daniel Steimetz - Software Engineer
-
 REQ-ID: FR-2
 Description: The product shall be able to reserve a chosen workshop.
 Type: 9
@@ -87,7 +81,7 @@ Rationale: The specific time slot cannot overide with another customer.
 Originator: Peter Athnasious - Software Engineer
 
 REQ-ID: FR-16
-Description: The product shall provide a booking summary before payment is made.
+Description: The product shall provide a booking summary after payment is made.
 Type: 9
 Rationale: To check if customer details, allocated workshop time and date, payment information details are correct.
 Originator: Peter Athnasious - Software Engineer
@@ -133,13 +127,6 @@ Rationale: This prevents a customer from not paying by using fraudulent details.
 Originator: Tony Lin - Software Engineer
 Comments: None
 
-REQ-ID: FR-24
-Description: The product shall send the customer a booking confirmation by email after the reservation has been made.
-Type: Functional requirement
-Rationale: This serves as a reminder to the customer, as well as providing useful contact details and potentially, advertisement and future offers.
-Originator: Tony Lin - Software Engineer
-Comments: The contents of this email is dictated by the activity organisers; fetching this contents is another requirement.
-
 REQ-ID: FR-25
 Description: The system shall provide a list of available equipment.
 Type: Functional
@@ -153,12 +140,6 @@ Type: Functional
 Rationale: This allows a user of the system to view what equipment is currently booked, this will allow a user to determine if they need to order more of a heavily used piece of equipment.
 Originator: Daniel McAssey - Software Engineer
 Comments: This requirement is for the user of the system to view what is currently booked out and possibly generate reports on what is most used, however that would be a seperate requirement.
-
-REQ-ID: FR-27
-Discription: Members need to have their discounts applied when booking workshops.
-Type: Business requirement
-Rationale: So Members do not miss out on their benefits 
-source: James Peters
 
 REQ-ID: FR-28
 Discription: The system should be able to give ad-hoc management reports.
