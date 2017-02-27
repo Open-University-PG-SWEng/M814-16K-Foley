@@ -67,12 +67,6 @@ Type: 9
 Rationale: An operator needs to create a set of supply orders based on a list of required supplies, supplies should be grouped by the supplier.
 Originator: Jacek S Kutyla
 
-REQ-ID: FR-11
-Description: The system will produce management reports
-Type: Business requirement
-Rationale: To be able to compare current performance against past and planned performance on a regular basis
-Originator: Sam Bates
-
 REQ-ID: FR-12
 Description: The system should store past management reports
 Type: Business Requirement
@@ -91,12 +85,6 @@ Description: The product shall record the details and status of each of the invo
 Type: Functional
 Rationale: The financial information must go to the accountants at the end of the year so they can do a tax return
 Originator: Geoffrey Hayward
-
-REQ-ID: FR-15
-Description: The product shall display a list of all available time slots for a specific workshop.
-Type: 9
-Rationale: The specific time slot cannot overide with another customer.
-Originator: Peter Athnasious - Software Engineer
 
 REQ-ID: FR-16
 Description: The product shall provide a booking summary before payment is made.
@@ -123,19 +111,13 @@ Originator: Adam Boothroyd
 
 REQ-ID: FR-20 
 Description: The product shall generate management reports when specified. 
-Rationale: Staff require management reports, both on a periodical and ad-hoc basis, to facilitate business processes. 
+Rationale: Staff require management reports on a periodical basis, to facilitate business processes. 
 Originator: Adam Boothroyd
 
 REQ-ID: FR-21
 Description: The product shall identify the membership details of the customer.
 Type: 9
 Rationale: If the customer is not an existing member, then the membership discount cannot be applied.
-Originator: Thejas Kumar - Software Engineer
-
-REQ-ID: FR-22
-Description: The product shall check the availability for the workshop or class.
-Type: 9
-Rationale: If there are no available spaces for the workshop, then the customer should not be allowed to book.
 Originator: Thejas Kumar - Software Engineer
 
 REQ-ID: FR-23
@@ -178,13 +160,6 @@ Type: Business requirement
 Rationale: To analyse business performance at any given time.
 source: James Peters
 
-REQ-ID: FR-29
-Description: The product shall check the callers name against the membership list.
-Type: Functional requirement
-Rationale: To ascertain if the caller is a member of the centre.
-Originator: Robert Bashford - SOftware engineer
-Comment: requirement elicited from marion 
-
 REQ-ID: FR-30
 Description: The product shall apply the discount to a mambers booking fee
 Type: Functional requirement
@@ -199,7 +174,7 @@ Rationale: It is possible that non-member attempts to book a workshop in which c
 Originator: Igoris K - Software Engineer
 
 REQ-ID: FR-32
-Description: The product shall check the availability of the workshop
+Description: The product shall check the availability of the activity
 Type: Functional requirement
-Rationale: It is possible to have an oversubscribed workshop in which case the memeber would not be able to complete reservation
+Rationale: It is possible to have an oversubscribed activity in which case the memeber would not be able to complete reservation
 Originator: Igoris K - Software Engineer
