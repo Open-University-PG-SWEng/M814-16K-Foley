@@ -191,3 +191,15 @@ Type: Functional requirement
 Rationale: To ensure that a member receives the discount to which their membership entitles them
 Originator: Robert Bashford - SOftware engineer 
 Comment: requirement elicited from marion
+
+REQ-ID: FR-31
+Description: The product shall check that individual is a memeber
+Type: Functional requirement
+Rationale: It is possible that non-member attempts to book a workshop in which case different business use case shouldbe triggered
+Originator: Igoris K - Software Engineer
+
+REQ-ID: FR-32
+Description: The product shall check the availability of the workshop
+Type: Functional requirement
+Rationale: It is possible to have an oversubscribed workshop in which case the memeber would not be able to complete reservation
+Originator: Igoris K - Software Engineer
