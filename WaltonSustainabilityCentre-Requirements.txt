@@ -30,7 +30,7 @@ Rationale: The accounts department need to be made aware of any failed payments 
 Originator: Lucy Withington - Software Engineer
 
 REQ-ID: FR-5
-Description: The product shall applied the correct discount to the total workshop payment
+Description: The product shall apply the correct discount to the total workshop payment
 Type: 9
 Rationale: To ensure that the customer is not over charged when paying for a workshop.
 Originator: Ryan Schranz - Software Engineer
@@ -153,24 +153,12 @@ Rationale: This allows a user of the system to view what equipment is currently 
 Originator: Daniel McAssey - Software Engineer
 Comments: This requirement is for the user of the system to view what is currently booked out and possibly generate reports on what is most used, however that would be a seperate requirement.
 
-REQ-ID: FR-27
-Description: Members need to have their discounts applied when booking workshops.
-Type: Business requirement
-Rationale: So Members do not miss out on their benefits 
-source: James Peters
 
 REQ-ID: FR-28
 Description: The system should be able to give ad-hoc management reports.
 Type: Business requirement
 Rationale: To analyse business performance at any given time.
 source: James Peters
-
-REQ-ID: FR-29
-Description: The product shall check the callers name against the membership list.
-Type: Functional requirement
-Rationale: To ascertain if the caller is a member of the centre.
-Originator: Robert Bashford - SOftware engineer
-Comment: requirement elicited from marion 
 
 REQ-ID: FR-30
 Description: The product shall apply the discount to a mambers booking fee
