@@ -1,0 +1,9 @@
+REQ-ID: NFR-2
+Description: The product shall apply the correct discounts to the total payment as quick as possible
+Type: 12 Performance
+Rationale: To reduce the time it takes for the overall calculation
+Fit Criterion: The discount calculation should take no longer than 0.002 seconds
+Originator: Ryan Schranz
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+
