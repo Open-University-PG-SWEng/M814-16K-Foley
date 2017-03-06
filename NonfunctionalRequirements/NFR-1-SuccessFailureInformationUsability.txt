@@ -1,0 +1,9 @@
+REQ-ID: NFR-1
+Description: The product shall present success and failure information that is instantly recognisable to the user.  
+Type: 11 Usability and Humanity
+Rationale: To reduce the time it takes to perform repetitive tasks.
+Fit Criterion: When presented with the product's success/failure information, 95% of users will correctly state success/failure within one second every time, after the first five attempts. 
+Originator: Lucy Withington
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+
