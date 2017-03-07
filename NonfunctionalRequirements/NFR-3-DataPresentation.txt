@@ -1,10 +1,8 @@
 REQ-ID: NFR-3
-Description:
-Type:
-Rationale:
-Fit Criterion:
+Description: The product shall present a list of activities in a compact form.
+Type: 11 Usability and Humanity
+Rationale: So the operator can see all activities in one place and get the 'whole picture'.
+Fit Criterion: When provided with the list of activities a new worker with the maximum of 10 minutes of training can locate 95% of required supplies.
 Originator: Jacek S Kutyla
 Comments:
 [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
-
-
