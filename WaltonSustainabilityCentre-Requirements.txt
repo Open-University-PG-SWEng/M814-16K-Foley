@@ -1,4 +1,4 @@
-﻿REQ-ID:
+REQ-ID:
 Description:
 Type:
 Rationale:
@@ -133,11 +133,11 @@ Rationale: If there are no available spaces for the workshop, then the customer 
 Originator: Thejas Kumar - Software Engineer
 
 REQ-ID: FR-23
-Description: The product shall only make a reservation for the customer once their payment method accepted. Specifically, this involves the product waiting until an adequate response is received from the accounting software, before making a reservation.
+Description: The product shall only make a reservation for the customer once their payment method accepted. 
 Type: Functional requirement
-Rationale: This prevents a customer from not paying by using fraudulent details. However, if the customer is legitimate, but unaware they have an invalid payment method, this saves the customer’s time by notifying them immediately that something is wrong. It also saves the business time by making sure activity slots are only taken by paying customers.
+Rationale: This ensures that all bookings have payments received for them.
 Originator: Tony Lin - Software Engineer
-Comments: None
+Comments: Specifically, this involves the product waiting until an adequate response is received from the accounting software, before making a reservation.
 
 REQ-ID: FR-25
 Description: The system shall provide a list of available equipment.
