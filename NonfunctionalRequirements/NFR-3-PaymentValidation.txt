@@ -1,0 +1,9 @@
+REQ-ID: NFR-3
+Description: The product shall check payment validity as quickly as possible.
+Type: Type 12, Performance.
+Rationale: Payment should be no slower that commercial payment systems otherwise the customer will become unsure of the payment's success.
+Fit Criterion: The payment is approved or rejected in 3 seconds or less (with a 1 second margin of error).
+Originator: Tony Lin
+Comments: 
+
+
