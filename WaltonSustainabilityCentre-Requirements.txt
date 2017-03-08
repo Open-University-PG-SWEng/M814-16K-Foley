@@ -6,18 +6,16 @@ Originator:
 Comments: [M814-ModuleChair] Copy this template below to add new requirements.
 
 REQ-ID: FR-1
-Description: After the booking of a workshop the product shall generate automatically a confirmation.
+Description: After the booking of a workshop the product shall automatically provide confirmation to the customer.
 Type: 9
-Rationale: To be able to send a confirmation the customer.
-Originator: Daniel Steimetz, Tony Lin - Software Engineering
-Comments [GH] Removed techological bias from the description and rationale.
+Rationale: To be able to provide confirmation to the customer.
+Originator: Daniel Steimetz - Software Engineer
 
 REQ-ID: FR-2
-Description: The product shall be able to make reservations.
+Description: The product shall be able to reserve a chosen workshop.
 Type: 9
-Rationale: To be able to reserve a workshop.  
-Originator: Daniel Steimetz - Software Engineer, David Vreony - Software Engineer, Geoff Hayward
-Comments [GH] Transactional, a place must be held during processing. 
+Rationale: To be able to reserve a chosen workshop.
+Originator: Daniel Steimetz - Software Engineer
 
 REQ-ID: FR-3
 Description: The product shall check that the payment due amount matches the agreed workshop fee amount.
@@ -31,6 +29,12 @@ Type: 9
 Rationale: The accounts department need to be made aware of any failed payments to ensure that they do not default on payments or submit erroneous accounts.
 Originator: Lucy Withington - Software Engineer
 
+REQ-ID: FR-5
+Description: The product shall apply the correct discount to the total workshop payment
+Type: 9
+Rationale: To ensure that the customer is not over charged when paying for a workshop.
+Originator: Ryan Schranz - Software Engineer
+
 REQ-ID: FR-6
 Description: The product shall allow searching for a member
 Type: 9
@@ -41,6 +45,14 @@ REQ-ID: FR-7
 Description: The product shall allow entry of Credit \ Debit card details
 Type: 9
 Rationale: Payment details may not already be on the system, required in order to take a payment.
+Originator: David Vreony - Software Engineer
+
+REQ-ID: FR-8
+Description: The product shall allow confirmation of a reservation of a booking
+Type: 9
+Rationale: If reservation and confirmation are treated as 2 different events there is the ability to "hold"
+           a workshop slot between the Customer being told there is a place available and them successfully
+           completing payment. Means the slot can't accidentally be taken by someone else during the customer journey.
 Originator: David Vreony - Software Engineer
 
 REQ-ID: FR-9
@@ -62,7 +74,7 @@ Rationale: For auditing purposes it will be important to keep copies of past rep
 Originator: Sam Bates
 
 REQ-ID: FR-13
-Description: The product shall be capable of triggering bank transfers
+Description: The product shall be capable of trigging bank transfers
 Type: Functional
 Rationale: To reduce the workload of the finance directors
 Originator: Geoffrey Hayward
@@ -101,7 +113,18 @@ Originator: Sam Woodfine
 REQ-ID: FR-19 
 Description: The product shall record membership details of customers. 
 Rationale: Memberships are used by the centre to apply booking discounts and perks, as well as making it easier for members to make reservations. 
-Originator: Adam Boothroyd, Thejas Kumar - Software Engineer
+Originator: Adam Boothroyd 
+
+REQ-ID: FR-20 
+Description: The product shall generate management reports on a periodic basis. 
+Rationale: Staff require management reports, on a periodical (time-triggered) basis, to facilitate business processes. 
+Originator: Adam Boothroyd
+
+REQ-ID: FR-21
+Description: The product shall identify the membership details of the customer.
+Type: 9
+Rationale: If the customer is not an existing member, then the membership discount cannot be applied.
+Originator: Thejas Kumar - Software Engineer
 
 REQ-ID: FR-22
 Description: The product shall check the availability for the workshop or class.
@@ -110,12 +133,11 @@ Rationale: If there are no available spaces for the workshop, then the customer 
 Originator: Thejas Kumar - Software Engineer
 
 REQ-ID: FR-23
-Description: The product shall only make a reservation for the customer once their payment method accepted. Specifically, this involves the product waiting until an adequate response is received from the accounting software, before making a reservation.
+Description: The product shall only make a reservation for the customer once their payment method accepted. 
 Type: Functional requirement
-Rationale: This prevents a customer from not paying by using fraudulent details. However, if the customer is legitimate, but unaware they have an invalid payment method, this saves the customer’s time by notifying them immediately that something is wrong. It also saves the business time by making sure activity slots are only taken by paying customers.
+Rationale: This ensures that all bookings have payments received for them.
 Originator: Tony Lin - Software Engineer
-Comments: None
-
+Comments: Specifically, this involves the product waiting until an adequate response is received from the accounting software, before making a reservation.
 
 REQ-ID: FR-25
 Description: The system shall provide a list of available equipment.
@@ -131,16 +153,27 @@ Rationale: This allows a user of the system to view what equipment is currently 
 Originator: Daniel McAssey - Software Engineer
 Comments: This requirement is for the user of the system to view what is currently booked out and possibly generate reports on what is most used, however that would be a seperate requirement.
 
-REQ-ID: FR-27
-Discription: Members need to have their discounts applied when booking workshops.
-Type: Business requirement
-Rationale: So Members do not miss out on their benefits 
-source: James Peters, Ryan Schranz - Software Engineer
-
 REQ-ID: FR-28
-Discription: The system should be able to give ad-hoc management reports.
+Description: The system should be able to give ad-hoc management reports.
 Type: Business requirement
 Rationale: To analyse business performance at any given time.
-source: James Peters, Sam Bates,  Adam Boothroyd
+source: James Peters
 
+REQ-ID: FR-30
+Description: The product shall apply the discount to a mambers booking fee
+Type: Functional requirement
+Rationale: To ensure that a member receives the discount to which their membership entitles them
+Originator: Robert Bashford - SOftware engineer 
+Comment: requirement elicited from marion
 
+REQ-ID: FR-31
+Description: The product shall check that individual is a memeber
+Type: Functional requirement
+Rationale: It is possible that non-member attempts to book a workshop in which case different business use case shouldbe triggered
+Originator: Igoris K - Software Engineer
+
+REQ-ID: FR-32
+Description: The product shall check the availability of the workshop
+Type: Functional requirement
+Rationale: It is possible to have an oversubscribed workshop in which case the memeber would not be able to complete reservation
+Originator: Igoris K - Software Engineer
