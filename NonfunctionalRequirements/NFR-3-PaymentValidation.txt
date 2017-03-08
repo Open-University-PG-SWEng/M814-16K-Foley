@@ -1,0 +1,7 @@
+REQ-ID: NFR-3
+Description: The product shall check payment validity as quickly as possible.
+Type: Type 12, Performance.
+Rationale: This allows staff to notify a customer immediately about a failed payment.
+Fit Criterion: The payment is approved or rejected in 3 seconds or less (with a 1 second margin of error).
+Originator: Tony Lin
+Comments: 
