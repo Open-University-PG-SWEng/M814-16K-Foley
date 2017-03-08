@@ -4,6 +4,5 @@ Type: 11 Usability and Humanity
 Rationale: To reduce the time it takes to perform repetitive tasks.
 Fit Criterion: When presented with the product's success/failure information, 95% of users will correctly state success/failure within one second every time, after the first five attempts. 
 Originator: Lucy Withington
-Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
-
-
+Comments: 
+[Tony Lin] I would argue for stricter fit criteria - perhaps even a 100% success rate. The business will be keen on not having a single payment slip through the net, as the consequences could prove disatrous for some larger transactions. At least, I would remove the caveat of five attempts.
