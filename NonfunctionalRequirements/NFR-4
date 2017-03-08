@@ -1,0 +1,7 @@
+REQ-ID: NFR-4 
+Description: The product shall enable customers to complete their membership application quickly. 
+Type: 11
+Rationale: It is beneficial for the centre to have registered members. Making the membership application process as quick as possible will ensure that more customers are likely to complete the process. 
+Fit Criterion: 80% of users will be able to complete their membership application from start to finish in under 10 minutes. 
+Originator: Adam Boothroyd
+Comments:
