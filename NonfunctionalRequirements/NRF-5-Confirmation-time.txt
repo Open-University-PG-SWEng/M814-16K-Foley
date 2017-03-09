@@ -4,4 +4,4 @@ Type: 12 - Performance Requirements
 Rationale: To reduce the time it takes for the overall booking.
 Fit Criterion: The product shall provide a confirmation of booking in less than 3 seconds over a 10 megabits/second internet connection.  
 Originator: Daniel Steimetz
-
+[JacekSKutyla] I would consider adding some safety margins to the fit criterion, for instance: The confirmation should take no longer than 3 seconds in 95% of payments. (I made a similar comment to NFR-2)
