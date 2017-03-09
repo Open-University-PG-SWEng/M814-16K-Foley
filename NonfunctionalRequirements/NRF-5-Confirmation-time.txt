@@ -1,0 +1,7 @@
+REQ-ID: NFR-5
+Description: The product shall provide a confirmation of booking in a short period of time to the user.  
+Type: 12 - Performance Requirements
+Rationale: To reduce the time it takes for the overall booking.
+Fit Criterion: The product shall provide a confirmation of booking in less than 3 seconds over a 10 megabits/second internet connection.  
+Originator: Daniel Steimetz
+

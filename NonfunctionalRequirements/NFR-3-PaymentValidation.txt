@@ -1,0 +1,8 @@
+REQ-ID: NFR-3
+Description: The product shall check payment validity as quickly as possible.
+Type: Type 12, Performance.
+Rationale: This allows staff to notify a customer immediately about a failed payment.
+Fit Criterion: The payment is approved or rejected in 3 seconds or less (with a 1 second margin of error).
+Originator: Tony Lin
+Comments: 
+[Lucy Withington] The margin of error would only be needed if you were aiming for a target time of 3s (i.e. 3s +/- 1s). Your target is <= 3s (or perhaps you want the target to be <=4s). The business might want to test the adjacent system that takes part in this transaction; is <=3s realistically achievable 100% of the time? If not, the fit criteria could be adjusted to be <=3s 95% of the time and never more than 10s (MRP p292).
