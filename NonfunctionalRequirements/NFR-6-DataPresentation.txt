@@ -6,3 +6,4 @@ Fit Criterion: When provided with the list of activities a new worker with the m
 Originator: Jacek S Kutyla
 Comments:
 [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+[JacekSKutyla] Iteration 1
