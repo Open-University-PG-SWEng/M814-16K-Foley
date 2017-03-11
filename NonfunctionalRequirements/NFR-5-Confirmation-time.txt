@@ -2,6 +2,7 @@ REQ-ID: NFR-5
 Description: The product shall provide a confirmation of booking in a short period of time to the user.  
 Type: 12 - Performance Requirements
 Rationale: To reduce the time it takes for the overall booking.
-Fit Criterion: The product shall provide a confirmation of booking in less than 3 seconds over a 10 megabits/second internet connection.  
+Fit Criterion: The product shall provide a confirmation of booking in less than 3 seconds in 97% of bookings.
 Originator: Daniel Steimetz
 [JacekSKutyla] I would consider adding some safety margins to the fit criterion, for instance: The confirmation should take no longer than 3 seconds in 95% of payments. (I made a similar comment to NFR-2)
+[D Steimetz] I agree with you JacekSKutyla on the safety margins.
