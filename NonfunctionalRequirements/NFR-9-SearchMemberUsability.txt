@@ -1,0 +1,6 @@
+REQ-ID: NFR-9
+Description: The Membership Search shall be easy and fast to operate.
+Type: 11 - Learning requirements
+Rationale: The system must be easy to use without adding to the workload, for example, when taking bookings over the phone. 
+Fit Criterion: After 30 minutes of training all clerks will be able to operate the Membership Search facility with just the keyboard, so that a search criterion can be entered in less than 10 seconds.
+Originator: Marion Harkin
