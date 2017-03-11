@@ -1,0 +1,7 @@
+REQ-ID: NFR-8
+Description: The product shall check the availability of workshop or class as quickly as possible.
+Type: 12 Performance.
+Rationale: This allows staff to notify a customer immediately if there are no available slots.
+Fit Criterion: The product shall provide the availability of workshop in less than a second for 95% of the time and less than 3 seconds for remaining 5%.
+Originator: Thejas Kumar
+Comments: 
