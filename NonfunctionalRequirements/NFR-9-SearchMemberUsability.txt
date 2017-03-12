@@ -4,3 +4,4 @@ Type: 11 - Learning requirements
 Rationale: The system must be easy to use without adding to the workload, for example, when taking bookings over the phone. 
 Fit Criterion: After 30 minutes of training all clerks will be able to operate the Membership Search facility with just the keyboard, so that a search criterion can be entered in less than 10 seconds.
 Originator: Marion Harkin
+[Thejas Kumar] I think it is good to have a safety margin to the fit criterion. E.g. After 30 minutes of training all clerks will be able to operate the Membership Search facility with just the keyboard, so that a search criterion can be entered in less than 10 seconds in 90% of the times.
