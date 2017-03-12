@@ -2,7 +2,7 @@ REQ-ID: NFR-2
 Description: The product shall apply the correct discounts to the total payment as quick as possible
 Type: 12 Performance
 Rationale: To reduce the time it takes for the overall calculation
-Fit Criterion: The discount calculation should take no longer than 0.002 seconds
+Fit Criterion: The discount calculation should take no longer than 0.002 seconds for 95% payments, and no longer than 0.02 for the remaining 5%.
 Originator: Ryan Schranz
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [JacekSKutyla] I would consider adding some safety margins to the fit criterion, for instance: The discount calculation should take no longer than 0.002 seconds in 95% of payments.
