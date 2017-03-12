@@ -7,3 +7,4 @@ Originator: Jacek S Kutyla
 Comments:
 [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [JacekSKutyla] Iteration 1
+[Ryan Schranz] I would consider adding to the criterion what "compact form" entails and how to test the "compactness"

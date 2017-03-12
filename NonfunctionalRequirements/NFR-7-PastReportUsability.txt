@@ -9,3 +9,4 @@ Fit Criterion: In at least 85% of instances, a user should be able to locate a
 specified report within 25 seconds.
 Originator: Sam Bates
 Comment [Geoffrey Hayward] It is unclear if the fit criterion relates to a type 12a ‘speed and latency’ or type 11a ‘ease of use’. As you have specified type 11, I would suggest changing ‘… able to locate a specified report …’ to ‘… able to specify a search criterion for locating a report …’.
+[Ryan Schranz] I agree with Geoffrey Hayward in regards to the breakdown of the criterion, I would also look at reducing the amount of time it takes to find a given report. 25 seconds seems like a long time for both speed and ease of use.
