@@ -8,3 +8,4 @@ Comments:
 [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [JacekSKutyla] Iteration 1
 [Ryan Schranz] I would consider adding to the criterion what "compact form" entails and how to test the "compactness"
+[Adam Boothroyd] Further to Ryan's comment, you could create a criterion for a certain percentage of the total activities fitting on a standard resolution screen.
