@@ -1,11 +1,12 @@
-REQ-ID: NFR-3
+REQ-ID: NFR-6
 Description: The product shall present a list of activities in a compact form.
 Type: 11 Usability and Humanity
-Rationale: So the operator can see all activities in one place and get the 'whole picture'.
-Fit Criterion: When provided with the list of activities a new worker with the maximum of 10 minutes of training can locate 95% of required supplies.
+Rationale: So the operator can see all activities in one place and get the 'whole picture' quickly.
+Fit Criterion: At least 40 entries should be visible on a standard resolution screen and an option to display further data should be provided. A minimum set of fields should be visible instantly (ID, Name, Due date, Main Supplier).
 Originator: Jacek S Kutyla
 Comments:
 [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 [JacekSKutyla] Iteration 1
 [Ryan Schranz] I would consider adding to the criterion what "compact form" entails and how to test the "compactness"
 [Adam Boothroyd] Further to Ryan's comment, you could create a criterion for a certain percentage of the total activities fitting on a standard resolution screen.
+[JacekSKutyla] Iteration 2 - after reviewing comments provided by Ryan and Adam I have amended my fit criterion to clearly describe how to measure my requirement.
