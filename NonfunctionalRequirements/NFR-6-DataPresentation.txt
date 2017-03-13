@@ -9,4 +9,4 @@ Comments:
 [JacekSKutyla] Iteration 1
 [Ryan Schranz] I would consider adding to the criterion what "compact form" entails and how to test the "compactness"
 [Adam Boothroyd] Further to Ryan's comment, you could create a criterion for a certain percentage of the total activities fitting on a standard resolution screen.
-[JacekSKutyla] Iteration 2 - after reviewing comments provided by Ryan and Adam I have amended my fit criterion to clearly describe how to measure my requirement.
+[JacekSKutyla] Iteration 2 - after reviewing comments provided by Ryan and Adam I have amended my fit criterion to clearly describe how to measure my requirement. The fit criterion is now very precise and descriptive.
