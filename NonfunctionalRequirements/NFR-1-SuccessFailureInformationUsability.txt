@@ -2,7 +2,20 @@ REQ-ID: NFR-1
 Description: The product shall present success and failure information that is instantly recognisable to the user.  
 Type: 11 Usability and Humanity
 Rationale: To reduce the time it takes to perform repetitive tasks.
+Fit Criterion: After five minutes’ familiarisation with WIMS information presentation, users will correctly state success/failure within one second, 99% of the time. 
+Originator: Lucy Withington
+
+
+
+------------ This NFR has been revised. No more comments are invited -------------
+------------ For information, the original NFR and comments is below -------------
+
+REQ-ID: NFR-1
+Description: The product shall present success and failure information that is instantly recognisable to the user.  
+Type: 11 Usability and Humanity
+Rationale: To reduce the time it takes to perform repetitive tasks.
 Fit Criterion: When presented with the product's success/failure information, 95% of users will correctly state success/failure within one second every time, after the first five attempts. 
 Originator: Lucy Withington
 Comments: 
 [Tony Lin] I would argue for stricter fit criteria - perhaps even a 100% success rate. The business will be keen on not having a single payment slip through the net, as the consequences could prove disatrous for some larger transactions. At least, I would remove the caveat of five attempts.
+------------ Deadline for comments has passed. No more comments are invited -------------

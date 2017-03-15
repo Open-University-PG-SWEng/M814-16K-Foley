@@ -6,3 +6,4 @@ Fit Criterion: The product shall provide the availability of workshop in less th
 Originator: Thejas Kumar
 Comments: Add comments below, making sure to include your initials in [] at the start.
 [Ryan Schranz] The criterion seems appropriate to the speed of the request, though it might be worth adding something about the accuracy of the request as we need to check for the availability?
+[JacekSKutyla] Although I would advocate for 'accuracy' criterion suggested by Ryan, I am not sure how it would apply to this requirement. I mean, a workshop or a class is available or not. Unless we are allowing for over-booking (similarly to airlines), then we could provide a fir criterion similar this one: 'and in 95% the class or workshop in question if not overbooked'.
