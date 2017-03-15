@@ -6,3 +6,4 @@ Fit Criterion: After 30 minutes of training all clerks will be able to operate t
 Originator: Marion Harkin
 [Thejas Kumar] I think it is good to have a safety margin to the fit criterion. E.g. After 30 minutes of training all clerks will be able to operate the Membership Search facility with just the keyboard, so that a search criterion can be entered in less than 10 seconds in 90% of the times.
 [Adam Boothroyd] I aggree with Thejas regarding the safety margin. Additionally, I think the 30 minutes specified training time could be too short. It might not be necessary to specify a time limit for training. One could instead say 'Fully trained clerks will be able to operate the Membership Search facility with just the keyboard, so that a search criterion can be entered in less than 10 seconds in 90% of the times'.
+[Jacek S Kutyla] I think it may be dangerous to assume that all clerks are capable of being trained in timely manner. I would add some safety margin here.
