@@ -1,0 +1,10 @@
+REQ-ID: NFR-10
+Description: The product shall adhere to the Data Protection Act (1998)
+Type: 17 Legal
+Rationale: To protect customer personally identifiable information (PII) and sensitive PII such as bank details to protect against fraud.
+Fit Criterion: The product shall ensure only authorised users will be able to access information relevant to their role and the activity they are carrying out. Data will be encrypted and thus not human readable without using the main application AT ALL TIMES.
+Originator: David Vreony
+Comments:
+
+
+
