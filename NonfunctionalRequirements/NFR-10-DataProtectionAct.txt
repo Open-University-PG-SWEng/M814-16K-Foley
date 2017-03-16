@@ -5,6 +5,4 @@ Rationale: To protect customer personally identifiable information (PII) and sen
 Fit Criterion: The product shall ensure only authorised users will be able to access information relevant to their role and the activity they are carrying out. Data will be encrypted and thus not human readable without using the main application AT ALL TIMES.
 Originator: David Vreony
 Comments:
-
-
-
+[JacekSKutyla] It may be worth defining who authorised users are but I am not sure if this explanation should be in the requirement itself.
