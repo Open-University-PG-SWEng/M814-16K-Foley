@@ -1,4 +1,16 @@
 ﻿REQ-ID: NFR-7
+Description: A user should be able to quickly locate a copy of a specified past report
+Type: 11 - Usability
+Rationale: In order to analyse financial performance, the user needs to be able to quickly find specific past reports. If this is difficult, the user will get frustrated and this feature won’t get used
+Fit Criterion: In at least 85% of instances, a user should be able to locate a specified report within 15 seconds. This time does not include retrieval of the report, which is covered by performance requirements.
+Originator: Sam Bates
+
+
+------------ This NFR has been revised. No more comments are invited
+-------------
+------------ For information, the original NFR and comments is below
+-------------
+REQ-ID: NFR-7
 Description: A user should be able to quickly locate a copy of a specified
 past report
 Type: 11 - Usability 
