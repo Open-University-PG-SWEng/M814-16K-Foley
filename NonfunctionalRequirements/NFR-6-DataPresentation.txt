@@ -10,3 +10,4 @@ Comments:
 [Ryan Schranz] I would consider adding to the criterion what "compact form" entails and how to test the "compactness"
 [Adam Boothroyd] Further to Ryan's comment, you could create a criterion for a certain percentage of the total activities fitting on a standard resolution screen.
 [JacekSKutyla] Iteration 2 - after reviewing comments provided by Ryan and Adam I have amended my fit criterion to clearly describe how to measure my requirement. The fit criterion is now very precise and descriptive.
+[DPVreony]The only thing I would clarify on this is the definition of "visible on screen". 40 entries literally "on screen" could be squashed. Up to 40 entries retrieved and viewable via scrolling without the need for refreshing\reloading the data available with more records retrieved as pages might add extra depth to the fit criterion? You could also clarify the standard resolution for example 1920x1200.
