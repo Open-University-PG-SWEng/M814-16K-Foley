@@ -1,8 +1,8 @@
 REQ-ID: NFR-10
 Description: The product shall adhere to the Data Protection Act (1998). The product shall ensure only authorised users will be able to access information relevant to their role and the activity they are carrying out. Specific roles for payment are those taking the payments and finance staff looking retrospectively.
 Type: 17 Legal
-Rationale: To protect customer personally identifiable information (PII) and sensitive PII such as bank details to protect against fraud.
-Fit Criterion:  People who take payments can see the details at point of entry, but not retrieve them afterwards, they can see masked summary data. Finance staff by default will also see masked details, but will be able to look into specific payments in detail as needed. Data will be encrypted and thus not human readable without using the main application AT ALL TIMES.
+Rationale: To protect customer personally identifiable information (PII) and sensitive PII (SPII) such as bank details to protect against fraud.
+Fit Criterion:  People who take payments can see the details at point of entry, but not retrieve the raw SPII afterwards, they can see masked summary data. Finance staff by default will also see masked details, but will be able to look into specific payments in detail as needed. Data will be encrypted and thus not human readable without using the main application AT ALL TIMES.
 Originator: David Vreony
 Comments:
 [JacekSKutyla] It may be worth defining who authorised users are but I am not sure if this explanation should be in the requirement itself.
