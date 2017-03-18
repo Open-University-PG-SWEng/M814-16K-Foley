@@ -2,10 +2,15 @@ REQ-ID: NFR-3
 Description: The product shall check payment validity as quickly as possible.
 Type: Type 12, Performance.
 Rationale: This allows staff to notify a customer immediately about a failed payment.
-Fit Criterion: The payment is approved or rejected in 3 seconds or less (with a 1 second margin of error).
+Fit Criterion: The payment is approved or rejected in 3 seconds or less (with a 1 second margin of error), in 95% of transactions. In case of the other 5%, the absolute maximum time is 10s.
 Originator: Tony Lin
 Comments: 
 [Lucy Withington] The margin of error would only be needed if you were aiming for a target time of 3s (i.e. 3s +/- 1s). Your target is <= 3s (or perhaps you want the target to be <=4s). The business might want to test the adjacent system that takes part in this transaction; is <=3s realistically achievable 100% of the time? If not, the fit criteria could be adjusted to be <=3s 95% of the time and never more than 10s (MRP p292).
 [Geoffrey Hayward] WIMS has no control over the cooperative adjacent system. I would suggest including a breakdown that splits the responsibility. #1 The system will dispatch a validation request in less than 200 milliseconds, and will process the response in less than 200 milliseconds. #2 The selected adjacent system will have a 2 second (or less) service level agreement. The other 600 milliseconds accounts for network delay.
 [Thejas Kumar] I agree with Lucy with respect to the safety margin. It is worth capturing how realisticically this fit criterion is achievable.
 [D Steimetz] You could consider adding a safety margins to your fit criterion, for example in 90% of payments the payment shall be rejected when the duration is greater than 3 seconds.
+[Revision comment - Tony Lin] 
+
+I agree with Lucy and the others about adding a safety margin, and I especially agree with Lucy about specifying an absolute maximum of 10s. Taking on the comments above, I have added a safety margin of 5% failure rate for completing the approval/rejection in 3 seconds, and an absolute maximum of 10s. In my opinion, issues such as network problems can cause occasional delays, so this seems reasonable. However if waiting any longer than 10s, users may think that a browser issue or similar has occured, and take unccessary action such as restarting the software. While I agree entirely with what Geoffrey said, it seems out of the scope of this requirement to specify a service level agreement for the accounting service (adjacent system). Hence I will not include that.
+
+------------ This NFR has been revised. No more comments are invited -------------
