@@ -7,3 +7,4 @@ Originator: David Vreony
 Comments:
 [JacekSKutyla] It may be worth defining who authorised users are but I am not sure if this explanation should be in the requirement itself.
 [DPVreony] Agreed, moved part of criterion to description with clarification of 2 roles.
+[Robert Bashford] I would add that neither the PII or SPII may appear in any form on any of the management reports
