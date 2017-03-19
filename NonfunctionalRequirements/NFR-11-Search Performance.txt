@@ -1,0 +1,10 @@
+REQ-ID: NFR 11
+Description:The product shall return the details of a member search in a timely fashion   
+Type: 12 - Performance Requirements
+Rationale: To ensure that the staff member can access membership details quickly 
+Fit Criterion:The product shall interrogate the database and return membership details ( if available) in 2 seconds
+in 97.5% of cases and in 5 seconds in the other 2.5% of cases
+Originator: Robert Bashford
+Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+
+
