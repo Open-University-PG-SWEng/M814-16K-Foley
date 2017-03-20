@@ -6,4 +6,8 @@ Fit Criterion: Under the load of 50 simultaneous users performing report generat
 Originator: Justin Cadogan
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 
+[James Peters] Possible gold plating. 50 simultaneous users seems like quite alot of users for the WIMS and the 500ms is quite a short time under that kind of load.
+Maybe it would be a good idea to reduce the number of users and increase the wait time slighlty.
+
+
 
