@@ -2,9 +2,11 @@ REQ-ID: NFR 11
 Description:The product shall return the details of a member search in a timely fashion   
 Type: 12 - Performance Requirements
 Rationale: To ensure that the staff member can access membership details quickly 
-Fit Criterion:The product shall interrogate the database and return membership details ( if available) in 2 seconds
-in 97.5% of cases and in 5 seconds in the other 2.5% of cases
+Fit Criterion:The product shall interrogate the system and return membership details ( if available) within 2 seconds
+in 97.5% of cases and within 5 seconds in the other 2.5% of cases
 Originator: Robert Bashford
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
-
+[Igoris K] Perhaps it would make sense to reword the requirement to change it to "within 2 seconds" and "within 5 seconds" seconds instead of "in 2 seconds" and "in 5 seconds" seconds, otherwise it can be interpreted as a constraint to return no sooner than in 2 or 5 seconds
+[JacekSKutyla] I would also suggest replacing word "database" with something which would not be technological biased (it suggests database like MySQL and we do not want to suggest any solutions)
+[Robert Bashford] Both comments accepted and the requirement enhanced
 
