@@ -2,7 +2,7 @@ REQ-ID: NFR-12
 Description: Check to make sure that individual is a member should be quick
 Type: 12
 Rationale: Member identification should not create a substantial delay when other users simultaneously perform resource intensive tasks such as report generation
-Fit Criterion: Under the load of 50 simultaneous users performing report generation, system takes no more than 500ms to return a response for at least 95% of requests
+Fit Criterion: Under the load of 25 simultaneous users performing report generation, for the duration of at least 24 hours, the system takes no more than 1000ms to return a response for at least 95% of requests, and no longer than 1500ms for the remaining 5% or requests.
 Originator: Justin Cadogan
 Comments: [M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
 
