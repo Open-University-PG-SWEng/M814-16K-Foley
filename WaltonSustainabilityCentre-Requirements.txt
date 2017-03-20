@@ -86,12 +86,6 @@ Type: Functional
 Rationale: The financial information must go to the accountants at the end of the year so they can do a tax return
 Originator: Geoffrey Hayward
 
-REQ-ID: FR-15
-Description: The product shall display a list of all available time slots for a specific workshop.
-Type: 9
-Rationale: The specific time slot cannot overide with another customer.
-Originator: Peter Athnasious - Software Engineer
-
 REQ-ID: FR-16
 Description: The product shall provide a booking summary before payment is made.
 Type: 9
@@ -124,12 +118,6 @@ REQ-ID: FR-21
 Description: The product shall identify the membership details of the customer.
 Type: 9
 Rationale: If the customer is not an existing member, then the membership discount cannot be applied.
-Originator: Thejas Kumar - Software Engineer
-
-REQ-ID: FR-22
-Description: The product shall check the availability for the workshop or class.
-Type: 9
-Rationale: If there are no available spaces for the workshop, then the customer should not be allowed to book.
 Originator: Thejas Kumar - Software Engineer
 
 REQ-ID: FR-23
@@ -167,9 +155,9 @@ Originator: Robert Bashford - SOftware engineer
 Comment: requirement elicited from marion
 
 REQ-ID: FR-31
-Description: The product shall check that individual is a memeber
+Description: The product shall check that individual is a member
 Type: Functional requirement
-Rationale: It is possible that non-member attempts to book a workshop in which case different business use case shouldbe triggered
+Rationale: It is possible that non-member attempts to book a workshop in which case different business use case should be triggered
 Originator: Igoris K - Software Engineer
 
 REQ-ID: FR-32
