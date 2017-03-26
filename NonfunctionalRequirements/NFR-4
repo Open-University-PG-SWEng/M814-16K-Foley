@@ -1,0 +1,10 @@
+REQ-ID: NFR-4 
+Description: The product shall enable customers to complete their membership application quickly. 
+Type: 11
+Rationale: It is beneficial for the centre to have registered members. Making the membership application process as quick as possible will ensure that more customers are likely to complete the process. 
+Fit Criterion: 80% of computer literate users will be able to complete their membership application on a PC from start to finish in under 10 minutes. 
+Originator: Adam Boothroyd
+Comments:
+[Lucy Withington] The fit criterion is satisfactory. You might consider refining it to what type of person the user is (MRP p49), this could be based on the type of new members that the centre is targeting. You might also specify what type of device this fit applies to; it can take longer to fill in forms on a tablet than on a PC. Consider whether the user's internet connection speed might affect performance.
+[JacekSKutyla] I do agree with Lucy Withington comments. Especially the part about the 'type' of the customer. A young person would expect to do everything with a few finger gestures (Google or Twitter login maybe?) as opposed to an elderly person who would be considering every move.
+[Adam Boothroyd] Thank you for your suggestions. I have revised the fit criterion to specify the type of user and the type of device. In this state, more fit criteria would need to be specified for different types of device, depending on what platform the system will support.

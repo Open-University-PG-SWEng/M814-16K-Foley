@@ -1,0 +1,8 @@
+REQ-ID: NFR-13
+Description: The reserved equipment table should be presented in a manner that is familiar to the user. 
+Type: 10 Look & Feel 
+Rationale: To help speedy integration of the system by the staff
+Fit Criterion: The product shall mimic the presentation of microsoft excel 2017
+Originator: James Peters
+Comments: [Adam Boothroyd] You could have a clearer definition for your fit criterion. Add the version of the program as well.  
+

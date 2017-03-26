@@ -1,0 +1,14 @@
+REQ-ID: NFR-6
+Description: The product shall present a list of activities in a compact form.
+Type: 11 Usability and Humanity
+Rationale: So the operator can see all activities in one place and get the 'whole picture' quickly.
+Fit Criterion: At least 40 entries should be visible on a standard resolution screen and an option to display further data should be provided. A minimum set of fields should be visible instantly (ID, Name, Due date, Main Supplier).
+Originator: Jacek S Kutyla
+Comments:
+[M814-ModuleChair] Add comments below, making sure to include your initials in [] at the start.
+[JacekSKutyla] Iteration 1
+[Ryan Schranz] I would consider adding to the criterion what "compact form" entails and how to test the "compactness"
+[Adam Boothroyd] Further to Ryan's comment, you could create a criterion for a certain percentage of the total activities fitting on a standard resolution screen.
+[JacekSKutyla] Iteration 2 - after reviewing comments provided by Ryan and Adam I have amended my fit criterion to clearly describe how to measure my requirement. The fit criterion is now very precise and descriptive.
+[DPVreony]The only thing I would clarify on this is the definition of "visible on screen". 40 entries literally "on screen" could be squashed. Up to 40 entries retrieved and viewable via scrolling without the need for refreshing\reloading the data available with more records retrieved as pages might add extra depth to the fit criterion? You could also clarify the standard resolution for example 1920x1200.
+[James Peters] I woulds argue that 40 entries is to many and might be confusing for the user. I would like to suggest changing the criterion to 10 per standard resolution.
