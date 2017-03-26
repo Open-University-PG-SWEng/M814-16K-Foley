@@ -4,5 +4,6 @@ Type: 10 Look & Feel
 Rationale: To help speedy integration of the system by the staff
 Fit Criterion: The product shall mimic the presentation of microsoft excel 2017
 Originator: James Peters
-Comments: [Adam Boothroyd] You could have a clearer definition for your fit criterion. Add the version of the program as well.  
+Comments: [Adam Boothroyd] You could have a clearer definition for your fit criterion. Add the version of the program as well.
+[Daniel McAssey] I feel this NFR's fit criterion is too subjective, it should properly describe it should be shown in a table row/column/cell layout, a developer may have never used Excel 2017 or have access to it.
 
